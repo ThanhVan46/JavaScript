@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Thư viện ảnh tương tác</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- Khối hiển thị ảnh lớn khi di chuột -->
+    <div id="image">
+        Di chuột qua một hình ảnh bên dưới để hiển thị ở đây.
+    </div>
+
+    <!-- Danh sách ảnh nhỏ -->
+    <div class="preview-container">
+        <img class="preview" 
+             alt="Mặt trời mọc trên biển" 
+             src="https://picsum.photos/id/1015/600/400" 
+             onmouseover="upDate(this)" 
+             onmouseout="unDo()">
+
+        <img class="preview" 
+             alt="Rừng cây mùa thu" 
+             src="https://picsum.photos/id/1016/600/400" 
+             onmouseover="upDate(this)" 
+             onmouseout="unDo()">
+
+        <img class="preview" 
+             alt="Dãy núi hùng vĩ" 
+             src="https://picsum.photos/id/1018/600/400" 
+             onmouseover="upDate(this)" 
+             onmouseout="unDo()">
+    </div>
+
+</body>
+</html>
