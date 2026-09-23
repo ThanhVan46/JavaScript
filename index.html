@@ -7,32 +7,30 @@
     <script src="script.js" defer></script>
 </head>
 <body>
-
-    <!-- Khối hiển thị ảnh lớn khi di chuột -->
+    <!-- Phần tử hiển thị ảnh phóng to và văn bản -->
     <div id="image">
-        Di chuột qua một hình ảnh bên dưới để hiển thị ở đây.
+        Hover over an image below to display here.
     </div>
 
-    <!-- Danh sách ảnh nhỏ -->
-    <div class="preview-container">
+    <!-- Các ảnh nhỏ để di chuột vào -->
+    <div class="gallery">
         <img class="preview" 
-             alt="Mặt trời mọc trên biển" 
-             src="https://picsum.photos/id/1015/600/400" 
-             onmouseover="upDate(this)" 
-             onmouseout="unDo()">
-
-        <img class="preview" 
-             alt="Rừng cây mùa thu" 
-             src="https://picsum.photos/id/1016/600/400" 
-             onmouseover="upDate(this)" 
-             onmouseout="unDo()">
-
-        <img class="preview" 
-             alt="Dãy núi hùng vĩ" 
+             alt="Phong cảnh núi rừng" 
              src="https://picsum.photos/id/1018/600/400" 
              onmouseover="upDate(this)" 
-             onmouseout="unDo()">
-    </div>
+             onmouseleave="unDo()">
 
+        <img class="preview" 
+             alt="Biển xanh cát trắng" 
+             src="https://picsum.photos/id/1015/600/400" 
+             onmouseover="upDate(this)" 
+             onmouseleave="unDo()">
+
+        <img class="preview" 
+             alt="Thành phố về đêm" 
+             src="https://picsum.photos/id/1016/600/400" 
+             onmouseover="upDate(this)" 
+             onmouseleave="unDo()">
+    </div>
 </body>
 </html>

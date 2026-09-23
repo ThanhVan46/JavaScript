@@ -5,22 +5,23 @@ body {
 }
 
 #image {
+    line-height: 300px;
     width: 600px;
-    height: 400px;
+    height: 300px;
+    border: 5px solid black;
     margin: 20px auto;
-    border: 3px solid #333;
     background-color: #8e8e8e;
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     color: white;
     font-size: 150%;
-    line-height: 400px;
 }
 
 .preview {
     width: 150px;
     height: 100px;
+    border: 2px solid black;
     margin: 10px;
-    border: 2px solid #555;
     cursor: pointer;
 }
